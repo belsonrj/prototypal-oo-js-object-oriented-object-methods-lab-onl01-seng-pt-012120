@@ -9,6 +9,9 @@ BoardMember.prototype.veto = function() {
 };
   
 BoardMember.prototype.approve = function() {
-  console.log(`No, I must disagree`);
+  console.log(`You can do that!`);
 };
-  
+
+BoardMember.prototype.approve = function() {
+  console.log(`You can do that!`);
+};
