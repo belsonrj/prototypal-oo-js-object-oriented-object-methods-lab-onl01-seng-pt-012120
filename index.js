@@ -4,7 +4,7 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training;
   }
-  BoardMember.prototype.veto = funstion {
+  BoardMember.prototype.veto = funstion() {
     console.log(`No, I must disagree`);
   }
   
