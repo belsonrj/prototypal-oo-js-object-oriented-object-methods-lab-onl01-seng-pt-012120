@@ -5,4 +5,6 @@ class BoardMember {
     this.training = training;
   }
   BoardMember.prototype.veto() {
+    console.log
+  }
 }
