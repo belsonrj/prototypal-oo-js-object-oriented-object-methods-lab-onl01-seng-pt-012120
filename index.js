@@ -5,6 +5,7 @@ class BoardMember {
     this.training = training;
   }
   BoardMember.prototype.veto() {
-    console.log(`Hello everybody, my name is ${this.name}`);
+    console.log(`No, I must disagree`);
   }
+  
 }
