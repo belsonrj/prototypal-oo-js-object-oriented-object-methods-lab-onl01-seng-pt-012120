@@ -12,6 +12,6 @@ BoardMember.prototype.approve = function() {
   console.log(`You can do that!`);
 };
 
-BoardMember.prototype.approve = function() {
+BoardMember.prototype.releasePressStatement = function() {
   console.log(`You can do that!`);
 };
