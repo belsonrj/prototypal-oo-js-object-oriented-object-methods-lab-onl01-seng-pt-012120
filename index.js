@@ -13,5 +13,9 @@ BoardMember.prototype.approve = function() {
 };
 
 BoardMember.prototype.releasePressStatement = function() {
+  console.log(`You will see great things from Scuber.`);
+};
+
+BoardMember.prototype.sayHi = function() {
   console.log(`You can do that!`);
 };
